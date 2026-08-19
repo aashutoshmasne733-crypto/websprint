@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "codename": "nirbhay",
+      "email": "nirbhay@gmail.com",
+      "password": "password123"
+    }
+  ],
+  "userProgress": {
+    "u1": {
+      "streak": 12,
+      "completed": 2,
+      "enrolled": 3,
+      "badges": 4,
+      "dailyHours": 2.7,
+      "accuracy": 88,
+      "mastered": 47,
+      "weeklyProgress": 92
+    }
+  },
+  "userCourses": {
+    "u1": [
+      {
+        "id": "c1",
+        "progress": 75,
+        "status": "in-progress"
+      },
+      {
+        "id": "c2",
+        "progress": 100,
+        "status": "completed"
+      },
+      {
+        "id": "c3",
+        "progress": 40,
+        "status": "in-progress"
+      }
+    ]
+  },
+  "revisionCards": {
+    "u1": [
+      {
+        "id": "k1",
+        "column": "mastered",
+        "topic": "Neubrutalist Shadow Offsets & Hard Borders",
+        "sourceCourse": "Earth-1610 Neubrutalist UI/UX Craft",
+        "dueDate": "Today",
+        "difficulty": "Easy",
+        "color": "green"
+      },
+      {
+        "id": "k2",
+        "column": "mastered",
+        "topic": "Sub-space Memory Allocation in Next.js",
+        "sourceCourse": "Full Stack Next.js & React",
+        "dueDate": "Today",
+        "difficulty": "Hard",
+        "color": "red"
+      },
+      {
+        "id": "k3",
+        "column": "mastered",
+        "topic": "TypeScript Generics & Mapped Types",
+        "sourceCourse": "TS Full Tutor",
+        "dueDate": "Tomorrow",
+        "difficulty": "Medium",
+        "color": "yellow"
+      },
+      {
+        "id": "k4",
+        "column": "in-progress",
+        "topic": "React Router Persistent Outlets",
+        "sourceCourse": "React Full Course",
+        "dueDate": "In 2 days",
+        "difficulty": "Medium",
+        "color": "violet"
+      },
+      {
+        "id": "k5",
+        "column": "in-progress",
+        "topic": "Docker Container Network Protocols",
+        "sourceCourse": "Docker Zero to Hero",
+        "dueDate": "In 3 days",
+        "difficulty": "Easy",
+        "color": "green"
+      },
+      {
+        "id": "k6",
+        "column": "mastered",
+        "topic": "State Machine Transitions & Action Handlers",
+        "sourceCourse": "Full Stack Next.js & React",
+        "dueDate": "Completed",
+        "difficulty": "Hard",
+        "color": "red"
+      }
+    ]
+  },
+  "chatSessions": {
+    "u1": [
+      {
+        "sender": "ai",
+        "text": "Welcome to your multiverse AI mock interview! I've analyzed progress in 0 courses, let's test your perception."
+      }
+    ]
+  }
+}

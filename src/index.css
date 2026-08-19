@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F5F1E8;
+    color: #111111;
+    font-family: 'Space Mono', monospace;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .dark body {
+    background-color: #0C0C0E;
+    color: #FAFAF7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', 'Archivo Black', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Premium Neubrutalist Dark Mode Adaptations */
+.dark .bg-background {
+  background-color: #0C0C0E !important;
+}
+
+.dark .bg-cardWhite {
+  background-color: #18181C !important;
+  color: #FAFAF7 !important;
+  border-color: #FAFAF7 !important;
+}
+
+.dark .text-ink {
+  color: #FAFAF7 !important;
+}
+
+.dark .border-ink {
+  border-color: #FAFAF7 !important;
+}
+
+.dark .shadow-hard-sm {
+  box-shadow: 3px 3px 0px 0px #FAFAF7 !important;
+}
+
+.dark .shadow-hard {
+  box-shadow: 4px 4px 0px 0px #FAFAF7 !important;
+}
+
+.dark .shadow-hard-md {
+  box-shadow: 5px 5px 0px 0px #FAFAF7 !important;
+}
+
+.dark .shadow-hard-lg {
+  box-shadow: 6px 6px 0px 0px #FAFAF7 !important;
+}
+
+.dark .shadow-hard-xl {
+  box-shadow: 8px 8px 0px 0px #FAFAF7 !important;
+}
+
+.dark input, .dark select, .dark textarea {
+  background-color: #18181C !important;
+  color: #FAFAF7 !important;
+  border-color: #FAFAF7 !important;
+}
+
+.dark input::placeholder {
+  color: rgba(250, 250, 247, 0.4) !important;
+}
+
+/* Halftone / Comic Dot pattern background */
+.bg-halftone {
+  background-image: radial-gradient(#111111 1.5px, transparent 1.5px);
+  background-size: 16px 16px;
+  opacity: 0.12;
+}
+
+.dark .bg-halftone {
+  background-image: radial-gradient(#FAFAF7 1.5px, transparent 1.5px);
+  opacity: 0.08;
+}
+
+.bg-spider-grid {
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(17, 17, 17, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(17, 17, 17, 0.08) 1px, transparent 1px);
+}
+
+.dark .bg-spider-grid {
+  background-image: 
+    linear-gradient(to right, rgba(250, 250, 247, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(250, 250, 247, 0.05) 1px, transparent 1px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F1E8;
+  border-left: 2px solid #111111;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #0C0C0E;
+  border-left: 2px solid #FAFAF7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111111;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #FAFAF7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
